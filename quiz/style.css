@@ -1,0 +1,42 @@
+.start-btn,
+.quiz-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.quiz-box {
+    width: 500px;
+    height: 300px;
+    
+}
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: grey;
+}
+.question {
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    
+   
+}
+
+.answers{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.btn:hover {
+    background-color: burlywood;
+}
+.hidden {
+    opacity: 0;
+}
